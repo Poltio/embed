@@ -20,7 +20,7 @@ By default all votes will have a Poltio User ID assigned to them. If you also wa
     <iframe 
         id="poltio-embed-poll-148692" 
         class="poltio-embed" 
-        src="https://www.poltio.com/e/poll/148692?uuid=XX" 
+        src="https://www.poltio.com/e/poll/148692?*uuid=XX*" 
         width="100%" 
         height="500" 
         frameBorder="0" 
