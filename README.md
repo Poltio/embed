@@ -20,7 +20,7 @@ By default all votes will have a Poltio User ID assigned to them. If you also wa
     <iframe 
         id="poltio-embed-poll-148692" 
         class="poltio-embed" 
-        src="https://www.poltio.com/e/poll/148692?*uuid=XX*" 
+        src="https://www.poltio.com/e/poll/148692?uuid=XX" 
         width="100%" 
         height="500" 
         frameBorder="0" 
@@ -30,3 +30,6 @@ By default all votes will have a Poltio User ID assigned to them. If you also wa
     </iframe>
 </figure>
 ```
+
+Here in this example, you need to update the XX with a unique id to identify that user. You can use your own user ids or create unique ids just to use in poltio widgets. 
+This uuid information will be only available in your Poltio Pro dashboards as *Publisher ID*
