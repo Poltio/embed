@@ -32,4 +32,4 @@ By default all votes will have a Poltio User ID assigned to them. If you also wa
 ```
 
 Here in this example, you need to update the XX with a unique id to identify that user. You can use your own user ids or create unique ids just to use in poltio widgets. 
-This uuid information will be only available in your Poltio Pro dashboards as *Publisher ID*
+This uuid information will be only available in your Poltio Pro dashboards as **Publisher ID**
