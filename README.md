@@ -7,7 +7,7 @@ If you want to use Poltio Widgets in your page multiple times and don't want to 
 Add the following line to somewhere in your HTML once and it will dedect Poltio Widgets and change their height attributes to fit the page. It will do all the calculations inside of the widget so it will not impact your page performance. 
 
 ```html
-<script type="text/javascript" src="//sdk.poltio.com/prod/resizer.js" defer></script>
+<script async src="https://platform.poltio.com/widget.js"></script>
 ```
 
 
