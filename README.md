@@ -57,3 +57,10 @@ Example Poltio Embed Widget;
 - Surrounding ```<figure>``` element is for article support for sites like Facebook etc...
 - Iframe ID attribute is for Poltio Resizer. If you remove this attribute even if you have resizer sdk on your page, it will not change this widget's sizes. 
 - Width is the only fixed attribute, height and scrolling will be overwritten if Resizer SDK is active depending on the perfect fit. 
+
+
+### Loading Content Based on URL 
+
+If you don't want to put specific iframe snippets in your page and load a content based on your page url, you can refer to our SDK documentation: 
+
+https://platform.poltio.com/docs/
