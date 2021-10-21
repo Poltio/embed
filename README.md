@@ -59,6 +59,19 @@ Example Poltio Embed Widget;
 - Width is the only fixed attribute, height and scrolling will be overwritten if Resizer SDK is active depending on the perfect fit. 
 
 
+### Query String Parameteres 
+
+There are options that you can configure how the widget behaves via the Query String options: 
+
+**uuid**: This information is saved in Poltio DB with the Poltio unique user id and can be retrieved by you via our dashboards, api, webhooks or sheethooks. (eg &uuid=XXXX)
+
+**disclaimer**: If you are already informing your visitors about cookie consent and want to disable Poltio Widget cookie consent, you can set this parameter to `off`. (eg: &disclaimer=off)
+
+**align**: Poltio Widgets aligned themselves center by default in their iframe width. You can change this behavior by setting `align=left` or `align=right` (eg: &align=center)
+
+**loc**: Poltio Widgets dedect device language and will use that language to display warnings or static texts. You can modify this by setting `loc=en` or `loc=tr` (eg: &loc=tr)
+
+
 ### Loading Content Based on URL 
 
 If you don't want to put specific iframe snippets in your page and load a content based on your page url, you can refer to our SDK documentation: 
