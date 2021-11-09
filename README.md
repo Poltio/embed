@@ -71,6 +71,8 @@ There are options that you can configure how the widget behaves via the Query St
 
 **loc**: Poltio Widgets dedect device language and will use that language to display warnings or static texts. You can modify this by setting `loc=en` or `loc=tr` (eg: &loc=tr)
 
+**share_url**: If you want to set a specific url for social share links at the end of the set, you can use this. 
+
 
 ### Loading Content Based on URL 
 
